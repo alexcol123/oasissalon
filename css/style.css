@@ -1,0 +1,456 @@
+#sacramento {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold; }
+
+#Crimson {
+  font-family: 'crimson Text', serif; }
+
+#lobster {
+  font-family: 'Lobster', cursive; }
+
+/*
+font-family: 'Sacramento', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Lobster', cursive;
+*/
+* {
+  font-family: 'Crimson Text', serif; }
+
+body {
+  background: #000;
+  margin-top: 0px; }
+
+.navbar, nav {
+  opacity: 0.7;
+  background: #000 !important; }
+  .navbar .nav-item, nav .nav-item {
+    font-size: 1.3rem;
+    padding-right: 20px;
+    color: #ffc220 !important; }
+    .navbar .nav-item .active, nav .nav-item .active {
+      color: #ffc220 !important; }
+    .navbar .nav-item .active:hover, nav .nav-item .active:hover {
+      font-weight: bold; }
+
+.card {
+  border-radius: 0 !important; }
+
+.btn {
+  border-radius: 0; }
+
+#language {
+  background: url("../img/blackGold1.jpg") top center;
+  color: #fff !important;
+  padding-top: 50%;
+  padding-bottom: 50px;
+  border-top: solid 2px #ffc220; }
+  #language a:link {
+    text-decoration: none;
+    color: white; }
+  #language a:visited {
+    text-decoration: none;
+    color: #ffc220; }
+  #language a:hover {
+    font-weight: bold; }
+  #language h5 {
+    padding-top: 20px;
+    padding-bottom: 10px; }
+  #language .hr3 {
+    border-top: 3px solid #ffc220;
+    max-width: 50%;
+    min-width: 120px;
+    opacity: .7; }
+
+.goldText {
+  color: #ffc220; }
+
+.shadowGold {
+  text-shadow: 2px 2px 1px #000, -2px -2px 1px #000; }
+
+.btn {
+  border: solid 1.5px #ffc220;
+  color: #fff !important;
+  opacity: .8; }
+
+.btn:hover {
+  color: #000 !important;
+  background: #ffc220;
+  opacity: .9; }
+  .btn:hover p {
+    color: #000 !important;
+    font-weight: bold; }
+  .btn:hover h3 {
+    color: #000 !important;
+    font-weight: bold; }
+
+#showcase {
+  position: relative;
+  background: url("../img/model4.jpg") top center no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: hidden; }
+  #showcase h2 {
+    padding-top: 46vh;
+    font-size: 40px;
+    color: #ffc220 !important;
+    line-height: 110%;
+    text-shadow: 2px 2px 3px #000, -2px -2px 3px #000; }
+  #showcase h3 {
+    text-shadow: 2px 2px 1px #000, -2px -2px 1px #000; }
+  #showcase p {
+    color: #fff !important; }
+  #showcase .primary-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+@media (min-width: 768px) {
+  #showcase {
+    position: relative;
+    background: url("../img/model4.jpg") top center no-repeat;
+    min-height: 110vh;
+    background-size: cover;
+    background-attachment: fixed; }
+    #showcase h2 {
+      padding-top: 55vh;
+      font-size: 70px;
+      color: #ffc220 !important;
+      line-height: 100%;
+      text-shadow: 3px 3px 5px #000, -3px -3px 3px #000; }
+    #showcase h3 {
+      text-shadow: 2px 2px 1px #000, -2px -2px 1px #000; }
+    #showcase p {
+      color: #fff !important; }
+    #showcase .primary-overlay {
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+      #showcase .primary-overlay #showcase-text {
+        margin-top: 40%;
+        margin-bottom: 20%;
+        color: #ffc220 !important;
+        opacity: .85; } }
+
+#galery2 {
+  text-transform: capitalize; }
+  #galery2 .carousel-item {
+    height: 100vh; }
+  #galery2 .hr2 {
+    border-top: 3px solid #ffc220;
+    max-width: 40%;
+    min-width: 120px;
+    border-bottom: solid 2px #000;
+    opacity: .4; }
+  #galery2 .carousel-image-1 {
+    background: url("../img/hairModel1.jpg") top center no-repeat;
+    background-size: cover; }
+  #galery2 .carousel-image-2 {
+    background: url("../img/hairModel6.jpg") center center no-repeat;
+    background-size: cover; }
+  #galery2 .carousel-image-3 {
+    background: url("../img/OasisTest21.jpg") center center no-repeat;
+    background-size: cover; }
+  #galery2 text {
+    opacity: .7; }
+  #galery2 h3 {
+    font-size: 3em;
+    color: #ffc220;
+    text-shadow: 2px 2px 4px #000, -2px -2px 4px #000;
+    opacity: .8; }
+  #galery2 h4 {
+    font-size: 3em;
+    color: #ffc220;
+    text-shadow: 2px 2px 2px #000, -2px -2px 1px #000; }
+  #galery2 p.lead {
+    color: #fff;
+    font-size: 1.6rem;
+    text-shadow: 2px 2px 4px #000, -2px -2px 3px #000;
+    max-width: 70%;
+    margin: 0 auto 50px;
+    line-height: 120%;
+    padding: 3px; }
+  #galery2 a, #galery2 p {
+    font-size: 1.25rem;
+    text-shadow: none;
+    margin-top: 20px; }
+  #galery2 btn {
+    border: solid 2px #ffc220; }
+
+@media (max-width: 700px) {
+  #galery2 h4 {
+    font-size: 2.3em; }
+  #galery2 p.lead {
+    font-size: 1.2rem; } }
+
+#galery3 {
+  text-transform: capitalize; }
+  #galery3 .carousel-item {
+    height: 100vh; }
+  #galery3 .hr2 {
+    border-top: 3px solid #ffc220;
+    max-width: 40%;
+    min-width: 120px;
+    border-bottom: solid 2px #000;
+    opacity: .4; }
+  #galery3 .carousel-image-1 {
+    background: url("../img/model8.jpg") top center no-repeat;
+    background-size: cover; }
+  #galery3 .carousel-image-2 {
+    background: url("../img/hairModel2.jpg") center center no-repeat;
+    background-size: cover; }
+  #galery3 .carousel-image-3 {
+    background: url("../img/OasisTest21.jpg") center center no-repeat;
+    background-size: cover; }
+  #galery3 text {
+    opacity: .7; }
+  #galery3 h3 {
+    font-size: 3em;
+    color: #ffc220;
+    text-shadow: 2px 2px 4px #000, -2px -2px 4px #000;
+    opacity: .8; }
+  #galery3 h4 {
+    font-size: 3em;
+    color: #ffc220;
+    text-shadow: 2px 2px 2px #000, -2px -2px 1px #000; }
+  #galery3 p.lead {
+    color: #fff;
+    font-size: 1.6rem;
+    text-shadow: 2px 2px 4px #000, -2px -2px 3px #000;
+    max-width: 70%;
+    margin: 0 auto 50px;
+    line-height: 120%;
+    padding: 3px; }
+  #galery3 a, #galery3 p {
+    font-size: 1.25rem;
+    text-shadow: none;
+    margin-top: 20px; }
+  #galery3 btn {
+    border: solid 2px #ffc220; }
+
+@media (max-width: 700px) {
+  #galery2 h4 {
+    font-size: 2.3em; }
+  #galery2 p.lead {
+    font-size: 1.2rem; } }
+
+#about {
+  background: #000;
+  text-transform: capitalize;
+  color: #ffc220 !important;
+  border-top: solid 3px #ffc220 !important; }
+
+#about2 {
+  position: relative;
+  background: url("../img/stylist10.jpg") center center no-repeat;
+  min-height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+  overflow: hidden;
+  color: white;
+  border-top: solid 3px #ffc220 !important; }
+  #about2 .secondary-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#stylists img {
+  margin-top: -50px; }
+
+#stylists .fa {
+  font-size: 30px;
+  color: #ffc220 !important; }
+
+#stylists .card {
+  background: #f2f2f2; }
+
+#stylists .card:hover {
+  background: #000;
+  color: #ffc220;
+  border: solid 2px #ffc220; }
+  #stylists .card:hover .card-footer {
+    background: #313131; }
+
+#stylists2 {
+  border-top: solid 3px #ffc220 !important;
+  border-bottom: solid 3px #ffc220 !important;
+  background-color: #000; }
+  #stylists2 img {
+    border: solid 2px #ffc220;
+    max-width: 100%; }
+  #stylists2 .fa {
+    font-size: 25px;
+    color: #ffc220 !important; }
+  #stylists2 .card {
+    background: #000;
+    color: #ffc220;
+    border: solid 3px #ffc220; }
+    #stylists2 .card h3 {
+      font-size: 1.7rem; }
+    #stylists2 .card h5 {
+      font-size: rem; }
+    #stylists2 .card img {
+      border: solid 4px #ffc220; }
+    #stylists2 .card .card-footer {
+      background: #313131; }
+  #stylists2 .card:hover {
+    background: #000;
+    color: #ffc220;
+    border: solid 3px #ffc220; }
+    #stylists2 .card:hover h3 {
+      padding-top: 20px;
+      font-size: 2rem; }
+    #stylists2 .card:hover h5 {
+      padding-top: 15px;
+      font-size: rem; }
+    #stylists2 .card:hover p {
+      padding-top: 7.5px;
+      padding-bottom: 7.5px; }
+    #stylists2 .card:hover img {
+      margin-top: -50px;
+      border: solid 4px #ffc220; }
+    #stylists2 .card:hover .card-footer {
+      background: #ffc220; }
+      #stylists2 .card:hover .card-footer .fa {
+        font-size: 25px;
+        color: #000 !important; }
+
+#ourServices {
+  position: relative;
+  background: url("../img/OasisTest6.jpg") top center;
+  min-height: 120vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  border-top: solid 4px #ffc220 !important;
+  box-sizing: border-box;
+  text-transform: capitalize; }
+  #ourServices #sevicesHeading, #ourServices h1 {
+    text-shadow: 2px 2px 5px #000, -2px -2px 5px #000 !important; }
+  #ourServices #pText {
+    text-shadow: 2px 2px 5px #000, -2px -2px 5px #000 !important; }
+  #ourServices .card {
+    opacity: .90;
+    background: #1a1a1a !important;
+    color: #ffc220;
+    border: double 4px #ffc220; }
+  #ourServices img {
+    width: 100%;
+    background: #000;
+    border: solid 2px #ffc220;
+    padding: 1%; }
+  #ourServices .card:hover img {
+    background: #ffc220;
+    border: solid 3px #000;
+    padding: 1.5%;
+    opacity: 1; }
+
+#map {
+  color: red !important;
+  position: relative;
+  min-height: 300px;
+  background: url("../img/mapSample2.jpg") top center no-repeat;
+  text-align: center;
+  color: #fff; }
+  #map a {
+    color: red; }
+  #map h1 {
+    position: relative;
+    top: 100px;
+    left: -100px; }
+
+#newsletter {
+  border-top: 2px solid #ffc220;
+  border-bottom: 2px solid #ffc220;
+  background: #000;
+  color: #ffc220; }
+
+#services {
+  padding-top: 140px;
+  padding-bottom: 50px;
+  border-top: solid 3px #ffc220 !important;
+  border-bottom: solid 3px #ffc220 !important;
+  background: url("../img/model3z.jpg") top right;
+  background-size: cover; }
+  #services h1 {
+    text-shadow: 2px 2px 5px #000, -2px -2px 5px #000; }
+  #services p {
+    text-shadow: 1px 1px 2px #000, -1px -1px 2px #000; }
+  #services table {
+    opacity: .9; }
+
+@media (max-width: 708px) {
+  #services {
+    background: url("../img/model3z.jpg") top right;
+    background-size: cover;
+    background-attachment: fixed; } }
+
+footer#main-footer {
+  background: #000;
+  color: #fff;
+  border-top: solid 2px #ffc220; }
+  footer#main-footer h5 {
+    opacity: .5; }
+  footer#main-footer a {
+    color: #ffc220;
+    opacity: .6; }
+  footer#main-footer a:hover {
+    font-size: 1.3rem;
+    opacity: 1; }
+
+footer#main-footer2 {
+  padding-top: 70px;
+  background: #000;
+  color: #fff; }
+  footer#main-footer2 a {
+    color: #ffc220; }
+  footer#main-footer2 a:hover {
+    border-bottom: solid 2px #ffc220;
+    padding-bottom: 3px; }
+    footer#main-footer2 a:hover img:hover {
+      border: solid 5px #ffc220; }
+  footer#main-footer2 .hr1 {
+    background: gray !important;
+    height: 2px;
+    min-width: 90px;
+    max-width: 100px;
+    margin: 0 auto; }
+  footer#main-footer2 ul {
+    border: solid 1px white; }
+    footer#main-footer2 ul .hours {
+      margin-left: 20px;
+      align-content: flex-end; }
+    footer#main-footer2 ul b {
+      text-align: left; }
+    footer#main-footer2 ul h2 {
+      margin-bottom: 10px; }
+    footer#main-footer2 ul li {
+      align: left;
+      list-style-type: none; }
+
+#portfolio {
+  background-color: #000;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background: url("../img/blackGold1.jpg") left center;
+  border-top: solid 2px #ffc220;
+  text-shadow: 2px 2px 5px #000, -2px -2px 5px #000; }
+  #portfolio .portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+    border: solid 4px #ffc220;
+    padding: 4%; }
+  #portfolio .portfolio-box:hover {
+    padding: 2%; }
